@@ -2,9 +2,13 @@
 
 # this is comment and will not execute
 
-echo "Hello World, I've started procaticing Shell scripting"
+echo "++++++++++++++++++++++++++++++++++++++++++++++++"
+echo "+                                              +"
+echo "++++++++++++++++++++++++++++++++++++++++++++++++"
 
-echo "Suresh::Hi Ramesh, How are you"
-echo "Ramesh::Hi Suresh, I'm good. How are you?"
-echo "Suresh::I'm fine, what are you learning now"
-echo "Ramesh::I've started learning DevOps"
+PERSON1=Suresh
+PERSON2=RAMESH
+echo "$PERSON1::Hi $PERSON2, How are you"
+echo "$PERSON2::Hi $PERSON1, I'm good. How are you?"
+echo "$PERSON1::I'm fine, what are you learning now"
+echo "$PESRSON2::I've started learning DevOps"
