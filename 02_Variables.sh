@@ -5,7 +5,7 @@ echo "Enter number:"
 read NUMBER
 
 if [($number % 2) -eq 0]; then
-    echo $number is even
+    echo $NUMBER is even
 else
-    echo $number is odd
+    echo $NUMBER is odd
 fi
